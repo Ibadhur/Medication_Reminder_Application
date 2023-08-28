@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Small image view on top -->
+    <ImageView
+        android:id="@+id/newsImage"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="220dp"
+
+        android:src="@drawable/news_image" />
+
+    <!-- Scrollable text view for article -->
+    <ScrollView
+        android:id="@+id/articleScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/newsImage"
+        android:padding="@dimen/padding_large">
+
+        <TextView
+            android:id="@+id/articleTextView"
+            android:background="#FDE5C9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/long_article_text"
+            android:textSize="@dimen/text_size_medium"
+            android:textColor="#000000"/>
+    </ScrollView>
+</RelativeLayout>

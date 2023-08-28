@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Medicine Time</string>
+    <string name="title_medicine_name">Medicine Name</string>
+    <string name="hint_enter_med_name">Enter Medicine</string>
+    <string name="medicine_days">Medicine Days</string>
+    <string name="title_treatment_deadline">Treatment deadline</string>
+    <string name="title_continuous_use">Continuous use</string>
+    <string name="title_reminder">Reminder</string>
+    <string name="new_medicine">NEW MEDICINE</string>
+    <string name="every_day">Every day</string>
+    <string name="no_medicine_added">No Medicine Added</string>
+    <string name="loading_tasks_error">Error while loading medicineAlarms</string>
+    <string name="successfully_saved_me_message">Medicine Added Successfully</string>
+    <string name="successfully_deleted_message">Medicine deleted Successfully</string>
+    <string name="reminder_message">It\'s time to take your medicine</string>
+    <string name="ignored">IGNORED</string>
+    <string name="taken">TAKEN</string>
+    <string name="all">ALL</string>
+    <string name="menu_filter">Filter</string>
+    <string name="all_label">All Medicines</string>
+    <string name="ignore_label">Medicines Ignored</string>
+    <string name="taken_label">Medicine Taken</string>
+    <string name="no_history">No History Found</string>
+    <string name="no_taken_med_history">You have not taken any medicine</string>
+    <string name="no_ignored_history">Well Done</string>
+    <string name="menu_stats">Monthly Report</string>
+    <string name="title_activity_pharmacy_search">PharmacySearchActivity</string>
+    <string name="long_article_text">
+    <p>Is it Important to Take Your Medications on Time?</p>&#10;&#10;&#10;
+
+    Oftentimes, doctors prescribe medications that need to be taken at specific times throughout the day. This may lead you to ask if taking your medications at specific times is important, and the answer is yes.
+    Why? Taking medicine on time, as prescribed, is essential to making sure your body has an effective amount of the drug at all times. If not, this can cause the disease to develop a resistance to the medicine or simply prolong the amount of time it takes to feel better.
+
+    The Centers for Disease Control and Prevention estimates that not taking medicine on time accounts for up to 50 percent of disease treatment failure. If you are unsure of when you should be taking a medication, ask your doctor.
+
+    Here are tips that can help you remember to take your medicine on time:
+
+    Set an alarm so you can take your medication at the same time every day
+    Tie taking your medications to a daily routine such as brushing your teeth or getting ready for bed. Before choosing mealtime for your routine, check if your medication should be taken on a full or empty stomach
+    Keep a “medicine calendar” with your pill bottles, and note each time you take a dose
+    Use a pill container. Some types have sections for multiple doses at different times, such as morning, lunch, evening, and night
+    Refill your pill container at the same time each week—for example, every Sunday morning after breakfast
+    Purchase timer caps for your pill bottles, and set them to go off when your next dose is due. Some pillboxes have timer functions
+    Take enough of your medication when traveling, plus a few days’ extra in case your return is delayed
+    If you miss a dose of medicine:
+
+    DO NOT double up on your next dosage. This can cause life-threatening side effects
+    Read the instructions that came with your prescription, because they often outline what to do if you miss a dose
+    If you have questions, call your doctor or pharmacist
+    Having enough medicine in your body at all times is crucial in the recovery process, and the best way to do that is by taking your medications at the correct times every day. Following these tips will help make you feel better faster.
+</string>
+</resources>

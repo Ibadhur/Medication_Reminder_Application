@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#70DDD7FB"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/signUpTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Sign up"
+        android:textColor="#462E73"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Full Name"
+        android:textColor="#462E73"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/signUpTitle"
+        app:layout_constraintStart_toStartOf="@id/signUpTitle"
+        app:layout_constraintTop_toBottomOf="@id/signUpTitle" />
+
+    <EditText
+        android:id="@+id/etNameDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="text"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="@id/nameDetail"
+        app:layout_constraintStart_toStartOf="@id/nameDetail"
+        app:layout_constraintTop_toBottomOf="@id/nameDetail" />
+
+    <TextView
+        android:id="@+id/userNameDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="User Name"
+        android:textColor="#462E73"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/etNameDetail"
+        app:layout_constraintStart_toStartOf="@id/etNameDetail"
+        app:layout_constraintTop_toBottomOf="@id/etNameDetail" />
+
+    <EditText
+        android:id="@+id/etUserNameDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="text"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="@id/userNameDetail"
+        app:layout_constraintStart_toStartOf="@id/userNameDetail"
+        app:layout_constraintTop_toBottomOf="@id/userNameDetail" />
+
+
+    <TextView
+        android:id="@+id/passwordDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Password"
+        android:textColor="#462E73"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/etUserNameDetail"
+        app:layout_constraintStart_toStartOf="@id/etUserNameDetail"
+        app:layout_constraintTop_toBottomOf="@id/etUserNameDetail" />
+
+    <EditText
+        android:id="@+id/etPasswordDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="@id/passwordDetail"
+        app:layout_constraintStart_toStartOf="@id/passwordDetail"
+        app:layout_constraintTop_toBottomOf="@id/passwordDetail" />
+
+    <TextView
+        android:id="@+id/confirmPasswordDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Confirm Password"
+        android:textColor="#462E73"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/etPasswordDetail"
+        app:layout_constraintStart_toStartOf="@id/etPasswordDetail"
+        app:layout_constraintTop_toBottomOf="@id/etPasswordDetail" />
+
+    <EditText
+        android:id="@+id/etConfirmPasswordDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="@id/confirmPasswordDetail"
+        app:layout_constraintStart_toStartOf="@id/confirmPasswordDetail"
+        app:layout_constraintTop_toBottomOf="@id/confirmPasswordDetail" />
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#462E73"
+        android:backgroundTintMode="add"
+        android:text="Sign Up"
+        android:textColor="#F3DDD7FB"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/etConfirmPasswordDetail"
+        app:layout_constraintStart_toStartOf="@id/etConfirmPasswordDetail"
+        app:layout_constraintTop_toBottomOf="@id/etConfirmPasswordDetail" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
